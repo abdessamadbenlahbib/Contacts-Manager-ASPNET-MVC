@@ -15,5 +15,5 @@ For client side validation, I have used the partial view _ValidationScriptsParti
 ![Untitled2](https://user-images.githubusercontent.com/42771693/183485537-606d0595-2ecd-420d-8290-2bb24ca34803.jpg)
 <br /><br />Updating an existing Contact<br /><br />
 ![Untitled3](https://user-images.githubusercontent.com/42771693/183486125-7331a3e1-c0a0-4a00-ae79-610f5022b928.jpg)<br />
-<br /><br />In order to tun the application, please update your appsettings.json file buy adding you own Connection String parameters.<br /><br />
+<br /><br />In order to run the application, please update your appsettings.json file buy adding you own Connection String parameters.<br /><br />
 
