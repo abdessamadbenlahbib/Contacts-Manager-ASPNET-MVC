@@ -6,7 +6,7 @@ The App offers the following functionalities: <br />
   3- Delete a Contact <br />
   4- Display all the Contacts <br /><br />
 For server side validation, I have an if statement to check if the phone number field contains only digits.<br />
-For client side validaiton, i have used the partial view _ValidationScriptsPartial.<br />
+For client side validation, I have used the partial view _ValidationScriptsPartial scripts.<br />
 <br /><br />The main page<br /><br />
 ![Untitled](https://user-images.githubusercontent.com/42771693/183485136-df835b51-1cc4-494d-9cd4-2d692a3ded93.jpg)
 <br /><br />The Contacts page<br /><br />
