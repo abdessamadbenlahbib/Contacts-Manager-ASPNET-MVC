@@ -1,10 +1,10 @@
 # Contacts-Manager-ASPNET-MVC
-A Simple CRUD ASP NET CORE MVC Application that manages phone contacts. <br />
+A Simple CRUD ASP NET CORE MVC Application that manages phone contacts. <br /><br />
 The App offers the following functionalities: <br />
   1- Add a new Contact <br />
   2- Update a Contact <br />
   3- Delete a Contact <br />
-  4- Dispaly all the Contacts <br />
+  4- Dispaly all the Contacts <br /><br />
 For server side validation, I have an if stetement to check if the phone number field contains only digits.<br />
 For client side validaiton, i have used the partial view _ValidationScriptsPartial.<br />
 <br /><br />The main page<br /><br />
