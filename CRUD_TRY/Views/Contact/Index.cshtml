@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Contact>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container p-3">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Contacts</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Contact" asp-action="Create" class="btn btn-primary"><i class="bi bi-person-plus"></i>   Create New Contact</a>
+        </div>
+    </div>
+</div>
+<br />
+<table class="table table-striped" style="width: 100%">
+    <thead>
+        <tr>
+            <th>FullName</th>
+            <th>Email</th>
+            <th>PhoneNumber</th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td width="30%" >
+                    @obj.Fullname
+                </td>
+                <td width="30%">
+                    @obj.Email
+                </td>
+                <td width="30%">
+                    @obj.PhoneNumber
+                </td>
+                <td width="5%">
+                    <a asp-action="Update" asp-controller="Contact" asp-route-id="@obj.Id" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></a>
+                </td>
+                <td width="5%">
+                    <a asp-action="Remove" asp-controller="Contact" asp-route-id="@obj.Id" class="btn btn-secondary"><i class="bi bi-person-dash-fill"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
