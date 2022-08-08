@@ -9,6 +9,8 @@ For server side validation, I have an if statement to check if the phone number 
 For client side validation, I have used the partial view _ValidationScriptsPartial scripts.<br />
 <br /><br />The main page<br /><br />
 ![Untitled](https://user-images.githubusercontent.com/42771693/183485136-df835b51-1cc4-494d-9cd4-2d692a3ded93.jpg)
+<br /><br />The Contacts page<br /><br />
+![Untitled5](https://user-images.githubusercontent.com/42771693/183496201-cf88d266-2c2a-4fdc-934c-9071fac8221e.jpg)
 <br /><br />Adding a new Contact<br /><br />
 ![Untitled2](https://user-images.githubusercontent.com/42771693/183485537-606d0595-2ecd-420d-8290-2bb24ca34803.jpg)
 <br /><br />Updating an existing Contact<br /><br />
